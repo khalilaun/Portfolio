@@ -1,18 +1,18 @@
-import project1 from "../public/tictoegame.png";
+import project1 from "../public/shadowtag.png";
 import project2 from "../public/typinggame.png";
 import project3 from "../public/IslamicTrivia.png";
 import project4 from "../public/Countdown.png";
-import project5 from "../public/project5.png";
+import project5 from "../public/tictoegame.png";
 import project6 from "../public/project6.png";
 
 export const projectData = [
   {
     id: 1,
     image: project1,
-    title: "Tic-Tac-Toe Deluxe",
+    title: "Shadow Tag",
     description:
-      "A clean, user-friendly version of the classic game where two players take turns competing to get three in a row. The game offers three modes: Human vs. Human, AI Easy, and AI Hard, allowing players to choose the level of challenge they want. The interface highlights whose turn it is, keeps track of wins, losses, and ties in a scoreboard, and includes a Restart button to quickly begin a new game. With its simple layout and focus on smooth gameplay, this version is great for quick matches and competitive fun.",
-    link: "https://github.com/khalilaun/Tic-Tac-Toe-Deluxe",
+      "Shadow Tag is an exciting chase game where you control a player trying to collect a glowing orb while avoiding the “light” that tries to catch you. With smooth controls and increasing difficulty across levels, it offers fast-paced fun and challenges your reflexes and strategy.",
+    link: "https://github.com/khalilaun/Shadow-Tag/tree/main",
     technologies: ["Python", "tkinter", "random"],
   },
   {
@@ -45,10 +45,10 @@ export const projectData = [
   {
     id: 5,
     image: project5,
-    title: "Fitness Tracker",
+    title: "Tic-Tac-Toe Deluxe",
     description:
-      "A comprehensive fitness tracking application that helps users monitor workouts, nutrition, and progress. Includes AI-powered workout recommendations.",
-    link: "https://github.com/yourusername/fitness-tracker",
+      "Tic-Tac-Toe with Human and AI modes, turn indicators, a scoreboard, and a Restart button—simple, smooth, and fun for quick games.",
+    link: "https://github.com/khalilaun/Tic-Tac-Toe-Deluxe",
     technologies: ["Flutter", "Firebase", "TensorFlow Lite", "SQLite", "BLoC"],
   },
   {
